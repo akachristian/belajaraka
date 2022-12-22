@@ -1,3 +1,4 @@
+<?php
 //menampilkan ip address menggunakan function getenv()
 function get_client_ip() {
     $ipaddress = '';
@@ -59,3 +60,4 @@ function get_client_browser() {
 echo "IP anda adalah : ". get_client_ip()."<br>";
 echo "Browser : ".get_client_browser()."<br>";
 echo "Sistem Operasi : ".$_SERVER['HTTP_USER_AGENT'];
+?>
