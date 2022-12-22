@@ -57,6 +57,7 @@ function get_client_browser() {
     return $browser;
 }
 echo "<br><br> >>>>> Selamat Datang di Result GitHub Build Aka Christian <<<< <br><br>";
+echo ">>>>> https://github.com/akachristian/belajaraka/ <<<< <br><br>";
 echo "IP anda adalah : ". get_client_ip()."<br>";
 echo "Browser : ".get_client_browser()."<br>";
 echo "Sistem Operasi : ".$_SERVER['HTTP_USER_AGENT'];
